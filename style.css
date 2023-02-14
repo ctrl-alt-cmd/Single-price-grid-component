@@ -1,0 +1,131 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Karla';
+    line-height: 20px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h4, h2, p {
+    margin: 0;
+}
+body{
+    padding: 35px;
+}
+#card {
+    /* margin: 0; */
+    
+    width: 600px;
+    height: 430px;
+    border-radius: 9px;
+    box-shadow: 1px 1px 13px 1px rgba(0,0,0,0.46);
+    overflow: hidden;
+}
+#top {
+    padding: 35px;
+    margin: 0;
+    
+    width: 100%;
+    height: 45%;
+    
+}
+
+#bottom{
+    margin: 0;
+    
+    width: 100%;
+    height: 55%;
+    
+}
+
+#bottom-left {
+    padding: 35px;
+    color: white;
+    margin: 0;
+    
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #20B3B2;
+    
+}
+
+#bottom-right {
+    padding: 35px;
+    color: white;
+    margin: 0;
+    
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #44BEBE
+}
+#bottom-right ul {
+    color: #9FF1F2;
+    padding: 0;
+    list-style: none;
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+button {
+    color: #FBFEF9;
+    background-color: #C0DF34;
+    width: 100%;
+    height: 30%;
+    border-radius: 5px;
+    
+    border: 0;
+    padding: 10px;
+    
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #aeca31;
+    transform: scale(1.05);
+}
+
+#top h2 {
+    color: #5ABBBA;
+    margin-bottom: 20px;
+}
+
+#top h4 {
+    color: #C0DF34;
+    margin-bottom: 15px;
+}
+#top p {
+    color: #B3B6BF;
+}
+
+#price {
+    font-weight: 700;
+    font-size: 1.8rem;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#bottom-left h4 {
+  margin-bottom: 25px;
+}
+
+#month {
+    display: inline-block;
+    margin-bottom: 10px;
+    position: relative;
+    top: -5px;
+    font-size: 0.8rem;
+    opacity: 0.6;
+    margin-left: 5px;
+}
+
+#bottom-left p {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+  }
